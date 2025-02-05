@@ -1,0 +1,117 @@
+body{
+    display: block;
+    position: absolute;
+    background-color: rgb(160, 159, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main{
+    position: relative;
+    margin: 0 auto;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.title{
+    color: rgb(48, 27, 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.buttons{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
+.button{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.yes{
+    background-color: #005021;
+}
+.no{
+    background-color: rgb(82, 0, 0);
+
+}
+
+.yes:hover{
+    background-color: rgb(97, 156, 92);
+}
+
+.no:hover{
+    background-color: rgb(194, 79, 79);
+}
+
+.beg{
+    width: 30vw;
+    padding: 20px;
+}
+
+.cprfirst{
+    background-color: rgb(82, 0, 0);
+}
+
+.cprfirst:hover{
+    background-color: rgb(194, 79, 79);
+}
+
+.again1{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.again1{
+    background-color: rgb(82, 0, 0);
+}
+
+.again1:hover{
+    background-color: rgb(194, 79, 79);
+}
+
+.again2{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.again2{
+    background-color: rgb(82, 0, 0);
+}
+
+.again2:hover{
+    background-color: rgb(194, 79, 79);
+}
+
+.endcpr{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 80px;
+}
+
+.endcpr{
+    background-color: rgb(82, 0, 0);
+}
+
+.endcpr:hover{
+    background-color: rgb(194, 79, 79);
+}
